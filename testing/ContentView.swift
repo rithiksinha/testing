@@ -19,6 +19,10 @@ struct ContentView: View {
                 Text ("50% OFF")
                     .font(.system(size: 25))
                     .foregroundColor(Color.blue)
+                
+                Text ("Buy 1 Get 1 Free")
+                .font(.system(size: 25))
+                    .foregroundColor(Color.red)
             }
         }
     }
